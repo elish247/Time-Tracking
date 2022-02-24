@@ -1,5 +1,5 @@
 const projectTeamModel=require("../model/projectteam-model")
-// add projectteam logic
+// add project module logic
 
 module.exports.addTeam=function(req,res){
     let projectcode=req.body.projectcode
